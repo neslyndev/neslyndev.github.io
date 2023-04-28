@@ -22,7 +22,7 @@
   margin-left: 40px;
 }
 .navbar-nav{
-  margin-left: 700px;
+  margin-left: 778px;
 }
 .nav-item .nav-link{
   color: #634C43;
@@ -33,9 +33,9 @@
 .nav-item .nav-link:hover{
   border-bottom: 2px solid #3C2A21;
 }
-/* navbar */
+/* ------- Nav Bar-----------*/
 
-/* ---------Hero/Home------------- */
+/* ---------Home------------- */
 
 .content {
     display: flex;
@@ -60,8 +60,9 @@
     font-size: x-large;
     font-weight: bold;
 }
+/* ---------Home------------- */
 
-/* -------------------menu----------------------- */
+/* ----------menu---------- */
 .menu{
     width: 100%;
     background: #f7f5f2;
@@ -101,6 +102,50 @@
     float: right;
     cursor: pointer;
   }
+  /* ----------menu---------- */
+
+  /* -------Inner hero-------- */
+  #Order{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Ysabeau', sans-serif; 
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, rgba(96, 76, 76, .6), rgba(96, 76, 76, .6)), url("/neslyndev.github.io/img/togo2.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+  .hero-content h3{
+    font-size: 50px;
+    color: white;
+}
+  .hero-content p{
+    color: #f7f5f2;
+    font-style: italic;
+    font-weight: bold;
+}
+  #btn{
+    width: 150px;
+    height: 36px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+  #btn:hover{
+    background: #b2744c;
+    color: white;
+  }
+    /* -----End of Inner hero----- */
 
   /* ---------------about------------------- */
 
