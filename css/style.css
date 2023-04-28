@@ -43,7 +43,7 @@
     position: relative;
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to bottom right, rgba(96, 76, 76, .6), rgba(96, 76, 76, .6)), url("/neslyndev.github.io/img/beans.jpg");
+    background-image: linear-gradient(to bottom right, rgba(96, 76, 76, .6), rgba(96, 76, 76, .6)), url("../img/beans.jpg.jpg");
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -104,7 +104,7 @@
   /* -------Inner hero-------- */
   #Order{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -112,8 +112,7 @@
     position: relative;
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to bottom right, rgba(96, 76, 76, .6), rgba(96, 76, 76, .6)), url("/neslyndev.github.io/img/togo2.jpg");
-    background-position: center bottom;
+    background-image: linear-gradient(to bottom right, rgba(96, 76, 76, .6), rgba(96, 76, 76, .6)), url("../img/toGo.jpg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -218,3 +217,35 @@
   border-radius: 10px;
   cursor: pointer;
 }
+/* podcast  */
+.podcast{
+  width: 100%;
+  background: #f7f5f2;
+}
+.podcast h1{
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 25px;
+  font-family: 'Castoro Titling', cursive;
+  color: #634C43;
+  font-weight: bold;
+  border-bottom: 2px solid #634C43;
+}
+.podcast h1 span{
+  color: #b2744c;
+}
+.podcast .container{
+  margin-top: 60px;
+}
+.podcast h5{
+  color: #b2744c;
+}
+#blogbtn{
+  width: 200px;
+  height: 36px;
+  border: none;
+  color: white;
+  background: #b2744c;
+  cursor: pointer;
+}
+/* end of podcast  */
