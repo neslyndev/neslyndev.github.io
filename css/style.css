@@ -80,9 +80,6 @@
     background: #f7f5f2;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
-  .star i{
-    color: #634C43;
-  }
   .menu h3{
     color: #3C2A21;
     font-family: 'Ysabeau', sans-serif;
@@ -106,7 +103,6 @@
   /* -------Inner hero-------- */
   #Order{
     display: flex;
-    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -183,6 +179,9 @@
     font-weight: bold;
     transition: 0.5s;
     cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
   #about-btn:hover{
     background: #3C2A21;
